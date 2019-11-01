@@ -1,0 +1,145 @@
+
+body{
+	background-color: #ecf4f3; 
+	color: rgb(50,50,50);
+	text-align: center;
+	font-family: 'Rubik';
+	font-size: 17px;
+}
+
+h1,h2 {
+	color: #57a99a;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	color:#45454d; 
+	transition: 0.3s;
+	letter-spacing: 2px;
+}
+a:hover{
+	color: #76dbd1;
+}
+
+
+p{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(0,0,0);
+}
+
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li{
+	display: inline-block;
+}
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+@media(max-width: 960px){
+	.container{
+		width:700px;
+	}
+
+}
+
+
+@media(max-width: 720px){
+	.container{
+		width:500px;
+	}
+
+}
+
+@media(max-width: 540px){
+	.container{
+		width:300px;
+	}
+
+}
+
+
+
+.box-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+
+
+.img-circle{
+	border-radius: 80%;
+}
+
+
+.btn-gray{
+background-color: #5d5d5d;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+
+}
+.btn-gray:hover{
+	background-color: #4baea0; 
+	color: white;
+
+}
+
+.list-inline{
+	list-style: none;
+
+}
+
+.list-inline li{
+	display:inline;
+	padding: 10px;
+	font-size: 50px;
+
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #4baea0 ;
+
+}
+
+/*Design adjustment using id*/
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
